@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Bookshelf</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="search-page" class="container">
+        <header>
+            <h1 id="heading">Search by book name</h1>
+            <input type="text" id="search-input" placeholder="Search for books...">
+        </header>
+        <button id="view-bookshelf">My Bookshelf</button>
+        <div id="search-results" class="results"></div>
+    </div>
+
+    <div id="bookshelf-page" class="container" style="display:none;">
+        <header>
+            <h1>My Bookshelf</h1>
+            <button id="back-to-search">Back to Search</button>
+        </header>
+        <div id="bookshelf" class="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
